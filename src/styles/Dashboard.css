@@ -1,0 +1,13 @@
+.dashboard-container {
+    color: #00ffcc;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  

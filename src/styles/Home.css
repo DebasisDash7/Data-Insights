@@ -1,0 +1,52 @@
+/* Centers the content perfectly */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+}
+
+/* Typing effect with larger font */
+.typing-text {
+  display: inline-block;
+  border-right: 4px solid teal; /* Cursor effect */
+  padding-right: 8px;
+  animation: blink 0.8s infinite;
+  font-size: 3.5rem; /* Large font size */
+  font-weight: bold; /* Makes the text more prominent */
+  color: teal; /* Keeps it consistent with the theme */
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Subheading with larger size and improved styling */
+.subheading {
+  font-size: 2rem; /* Increased font size to match */
+  font-weight: bold;
+  color: #ccc;
+  margin-top: 15px; /* Adds spacing below the heading */
+  text-shadow: 0 0 10px teal, 0 0 20px teal;
+}
+
+/* Smooth fade-in effect */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

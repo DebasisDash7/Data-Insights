@@ -1,0 +1,64 @@
+/* Existing styles (unchanged) */
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    color: #00ffcc;
+}
+
+/* Adjust navbar text color */
+.navbar a {
+    color: #00ffcc !important;
+    font-size: 18px;
+}
+
+/* Theme styles */
+body.dark {
+    background: #121212;
+    color: white;
+}
+
+body.light {
+    background: #ffffff;
+    color: black;
+}
+
+/* Settings Page */
+.settings-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.3);
+}
+
+h2 {
+    color: teal;
+}
+
+.settings-option {
+    margin: 15px 0;
+}
+
+.settings-option label {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.theme-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+
+.theme-btn:hover {
+    background-color: #008080;
+}
